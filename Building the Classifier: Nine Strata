@@ -1,0 +1,11 @@
+STRATA = {
+    "body_regions_anatomy_A01": '("breast"[MeSH Terms] OR "human mammary glands"[MeSH Terms]) AND ("1966"[PDAT]:"2000"[PDAT]) AND hasabstract AND english[lang]',
+    "urogenital_anatomy_A03": '("female genitalia"[MeSH Terms] OR "ovaries"[MeSH Terms] or "ovary"[MeSH Terms]) AND ("1966"[PDAT]:"2000"[PDAT]) AND hasabstract AND english[lang]',
+    "neoplasms_diseases_C04": '("breast neoplasms"[MeSH Terms] OR "pregnancy conditions"[MeSH Terms]) AND ("1966"[PDAT]:"2000"[PDAT]) AND hasabstract AND english[lang]',
+    "urogenital_diseases_C12": '("female urogenital diseases"[MeSH Terms] OR "pregnancy complications"[MeSH Terms] OR "female genital diseases"[MeSH Terms] OR "female infertility"[MeSH Terms] OR "vaginismus"[MeSH Terms] OR "female genital tuberculosis"[MeSH Terms] OR "female genital neoplasms"[MeSH Terms]) AND ("1966"[PDAT]:"2000"[PDAT]) AND hasabstract AND english[lang]',
+    "cardiovascular_diseases_C14": '("pregnancy complications, cardiovascular"[MeSH Terms] OR "embolism, amniotic fluid"[MeSH Terms] OR "peripartum cardiomyopathy"[MeSH Terms]) AND ("1966"[PDAT]:"2000"[PDAT]) AND hasabstract AND english[lang]',
+    "endocrine_diseases_C19": '("ovarian diseases"[MeSH Terms]) AND ("1966"[PDAT]:"2000"[PDAT]) AND hasabstract AND english[lang]',
+    "medicine_occupations_H02": '("gynecology"[MeSH Terms]) AND ("1966"[PDAT]:"2000"[PDAT]) AND hasabstract AND english[lang]',
+    "reproductive_urinary_processes_G08": '("ovarian reserve"[MeSH Terms] OR "time to pregnancy"[MeSH Terms] OR "labor presentation"[MeSH Terms] OR "lactation"[MeSH Terms] OR "maternal age"[MeSH Terms] OR "maternal age"[MeSH Terms] OR "menstrual cycle"[MeSH Terms] OR "peripartum period"[MeSH Terms] OR "postpartum period"[MeSH Terms] OR "pregnancy rate"[MeSH Terms] OR "pregnancy trimesters"[MeSH Terms] OR "premenstrual syndrome"[MeSH Terms]) AND ("1966"[PDAT]:"2000"[PDAT]) AND hasabstract AND english[lang]',
+    "persons_named_M01": '("abortion applicants"[MeSH Terms] OR "women"[MeSH Terms]) AND ("1966"[PDAT]:"2000"[PDAT]) AND hasabstract AND english[lang]',
+}
